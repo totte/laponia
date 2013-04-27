@@ -1,0 +1,114 @@
+/*
+Theme Name: Laponia
+Theme URI: http://underscores.me/
+Author: totte
+Author URI: http://tott.es
+Description: A theme for WordPress based on Twitter\'s Bootstrap framework
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+Find out more at Underscores.me.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+body {
+    padding: 16px 0px;
+    background: url('../img/bg.png');
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #2c72c7;
+    border-bottom: 1px solid #ffffff;
+}
+
+.container-narrow {
+  margin: 0 auto;
+  max-width: 640px;
+  padding: 0 8px;
+}
+
+.container-narrow > hr {
+  margin: 32px 0;
+}
+
+.navbar .brand,
+.navbar .nav > li > a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    text-shadow: 0px 0px 0px #fff;
+}
+
+.navbar .brand {
+    color: #fff;
+}
+
+.navbar .nav > li > a {
+    color: #00438a;
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #00438a;
+  -webkit-box-shadow: inset 0px 2px 8px #161616;
+     -moz-box-shadow: inset 0px 2px 8px #161616;
+          box-shadow: inset 0px 2px 8px #161616;
+}
+
+.nav-collapse .nav > li > a,
+.nav-collapse .dropdown-menu a {
+    font-weight: normal;
+}
+
+.navbar-inner {
+  min-height: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #2c72c7;
+  background-image: none;
+  background-repeat: repeat-x;
+  border: 0px solid #2c72c7;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: none;
+  *zoom: 1;
+  -webkit-box-shadow: 1px 1px 2px #080808;
+     -moz-box-shadow: 1px 1px 2px #080808;
+          box-shadow: 1px 1px 2px #080808;
+}
+
+.jumbotron {
+  margin: 32px 0;
+  text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 1em;
+    color: #868686;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #2c72c7;
+}
