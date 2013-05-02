@@ -23,6 +23,12 @@ hr {
     border-bottom: 1px solid #ffffff;
 }
 
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
 .container-narrow {
     margin: 0 auto;
     max-width: 640px;

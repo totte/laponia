@@ -10,17 +10,17 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
     <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-	<title><?php wp_title( '|', true, 'right' ); ?></title>
+        <meta charset="<?php bloginfo( 'charset' ); ?>" />
+        <title><?php wp_title( '|', true, 'right' ); ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="assorted ramblings and creations">
         <meta name="author" content="totte">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet">
+        <link href="<?php bloginfo('template_url'); ?>/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="<?php bloginfo('template_url'); ?>/css/style.css" rel="stylesheet">
         <link rel="profile" href="http://gmpg.org/xfn/11" />
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+        <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
             <script src="bootstrap/js/html5shiv.js"></script>
@@ -28,7 +28,7 @@
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
-	<?php do_action( 'before' ); ?>
+        <?php do_action( 'before' ); ?>
         <div class="container-narrow">
             <div class='navbar'>
                 <div class="navbar-inner">
