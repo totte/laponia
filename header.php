@@ -42,8 +42,7 @@
                         <div class="nav-collapse collapse">
                             <ul class="nav pull-right">
                                 <li class="active"><a href="#">blog</a></li>
-                                <li><a href="#">drawings</a></li>
-                                <li><a href="#">photographs</a></li>
+                                <li><a href="#">gallery</a></li>
                                 <li><a href="#">code</a></li>
                                 <li><a href="#">books</a></li>
                                 <li><a href="#">links</a></li>
