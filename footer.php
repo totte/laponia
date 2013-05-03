@@ -8,7 +8,6 @@
  */
 ?>
             </div>
-            <hr>
             <footer>
                 <p>Copyright 2012-<?php echo date('Y'); ?> H W "totte" Tovetjärn</p>
             </footer>

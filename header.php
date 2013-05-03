@@ -54,7 +54,6 @@
             <div class="jumbotron">
                 <p class="lead"><?php bloginfo( 'description' ); ?></p>
             </div>
-            <hr>
             <div class="row-fluid">
 <?php
 /**
