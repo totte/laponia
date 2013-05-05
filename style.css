@@ -12,7 +12,7 @@ Tags: minimal, responsive, bright
 
 body {
     padding: 16px 0px;
-    background: url('../img/bg.png');
+    background: url('img/bg.png');
     font-family: 'Open Sans', sans-serif;
     text-shadow: 1px 1px 0px #fff;
 }
@@ -30,13 +30,20 @@ a:hover {
 }
 
 article {
-    background-color: #efefef;
+    margin: 8px 0;
+    padding: 8px 16px 8px 16px;
+    background-color: #fafafa;
+    background-image: none;
+    background-repeat: repeat-x;
     border: 0px solid #2c72c7;
     -webkit-border-radius: 4px;
        -moz-border-radius: 4px;
             border-radius: 4px;
-    padding: 8px;
-    margin: 4px 0 4px 0;
+    filter: none;
+    *zoom: 1;
+    -webkit-box-shadow: 1px 1px 2px #080808;
+       -moz-box-shadow: 1px 1px 2px #080808;
+            box-shadow: 1px 1px 2px #080808;
 }
 
 footer {
@@ -100,8 +107,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .navbar-inner {
     min-height: 40px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 16px;
+    padding-left: 16px;
     background-color: #2c72c7;
     background-image: none;
     background-repeat: repeat-x;
@@ -117,6 +124,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .jumbotron {
-    margin: 32px 0;
+    margin: 16px 0 8px 0;
     text-align: center;
+}
+
+.lead {
+    margin: 0;
 }
